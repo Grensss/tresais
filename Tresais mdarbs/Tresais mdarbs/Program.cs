@@ -4,7 +4,7 @@ namespace Tresais_mdarbs
 {
     class Program
     {
-        static void First(string[] args)
+        static void Main(string[] args)
         {
             Phone phone = new Phone();
             Console.WriteLine("What is your phone manufacturer?");
@@ -19,11 +19,13 @@ namespace Tresais_mdarbs
             string param = phone.Parameters();
             Console.WriteLine(param);
 
-        }
-        static void Second(string[] args)
-        {
-
-
+       
+        
+            Car car = new Car();
+            car.Model = "Ferrari";
+            car.seats = 4;
+            string cartext = car.Carametrs();
+            Console.WriteLine(cartext);
 
         }
     }
