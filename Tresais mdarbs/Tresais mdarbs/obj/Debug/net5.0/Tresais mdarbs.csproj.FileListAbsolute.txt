@@ -1,0 +1,16 @@
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\bin\Debug\net5.0\Tresais mdarbs.exe
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\bin\Debug\net5.0\Tresais mdarbs.deps.json
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\bin\Debug\net5.0\Tresais mdarbs.runtimeconfig.json
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\bin\Debug\net5.0\Tresais mdarbs.runtimeconfig.dev.json
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\bin\Debug\net5.0\Tresais mdarbs.dll
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\bin\Debug\net5.0\ref\Tresais mdarbs.dll
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\bin\Debug\net5.0\Tresais mdarbs.pdb
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\obj\Debug\net5.0\Tresais mdarbs.csproj.AssemblyReference.cache
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\obj\Debug\net5.0\Tresais mdarbs.GeneratedMSBuildEditorConfig.editorconfig
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\obj\Debug\net5.0\Tresais mdarbs.AssemblyInfoInputs.cache
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\obj\Debug\net5.0\Tresais mdarbs.AssemblyInfo.cs
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\obj\Debug\net5.0\Tresais mdarbs.csproj.CoreCompileInputs.cache
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\obj\Debug\net5.0\Tresais mdarbs.dll
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\obj\Debug\net5.0\ref\Tresais mdarbs.dll
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\obj\Debug\net5.0\Tresais mdarbs.pdb
+D:\MS\Repositry\tresais darbs\Tresais mdarbs\Tresais mdarbs\obj\Debug\net5.0\Tresais mdarbs.genruntimeconfig.cache
