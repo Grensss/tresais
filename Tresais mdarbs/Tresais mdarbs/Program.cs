@@ -21,33 +21,54 @@ namespace Tresais_mdarbs
 
 
 
-            Car car = new Car();
-            Console.WriteLine("What is your car model?");
-            car.Model = Console.ReadLine();
-            car.Seats = 4;
-            car.Speed = 20;
-            car.Numbcar = "HK - 2748";
-            string cartext = car.Carametrs();
-            Console.WriteLine(cartext);
-            string carmanage = car.Carfunctionality();
-            Console.WriteLine(carmanage);
-            car.Functoin = Console.ReadLine();
-            if (car.Functoin == "beep")
-            {
-                Console.WriteLine ("Beep Beep");
-                Console.Beep();
-            }
-            else if(car.Functoin == "faster")
-            {
-                car.Speed = car.Speed + 10;
-                Console.WriteLine("Your car speed is " + car.Speed + " km / h.");
-            }
-            else if (car.Functoin == "slower")
-            {
-                car.Speed = car.Speed -10;
-                Console.WriteLine("Your car speed is " + car.Speed + " km / h.");
-            }
-            
+            //Car car = new Car();
+            //Console.WriteLine("What is your car model?");
+            //car.Model = Console.ReadLine();
+            //car.Seats = 4;
+            //car.Speed = 20;
+            //car.Numbcar = "HK - 2748";
+            //string cartext = car.Carametrs();
+            //Console.WriteLine(cartext);
+            //string carmanage = car.Carfunctionality();
+            //Console.WriteLine(carmanage);
+            //car.Functoin = Console.ReadLine();
+            //if (car.Functoin == "beep")
+            //{
+            //    Console.WriteLine ("Beep Beep");
+            //    Console.Beep();
+            //}
+            //else if(car.Functoin == "faster")
+            //{
+            //    car.Speed = car.Speed + 10;
+            //    Console.WriteLine("Your car speed is " + car.Speed + " km / h.");
+            //}
+            //else if (car.Functoin == "slower")
+            //{
+            //    car.Speed = car.Speed -10;
+            //    Console.WriteLine("Your car speed is " + car.Speed + " km / h.");
+            //}
+
+            Product product = new Product();
+            Console.WriteLine("Greetings write product name to search it's parameters.");
+            product.Productname = Console.ReadLine();
+            product.ProdHeight = 40;
+            product.ProdLength = 20;
+            product.ProdWeight = 5;
+            product.ProdWidth = 60;
+            string Prod = product.Productometrs();
+            Console.WriteLine(Prod);
+
+
+
+
+
+
+
+
+
+
+
+
 
         }
     }
