@@ -25,31 +25,30 @@ namespace Tresais_mdarbs
             Console.WriteLine("What is your car model?");
             car.Model = Console.ReadLine();
             car.Seats = 4;
+            car.Speed = 20;
+            car.Numbcar = "HK - 2748";
             string cartext = car.Carametrs();
             Console.WriteLine(cartext);
-            car.Speed = 20;
-            Console.WriteLine("To manage car type [beep, faster, slower], your car speed is 20 km/h");
-            String function = Console.ReadLine();
-            while (true)
+            string carmanage = car.Carfunctionality();
+            Console.WriteLine(carmanage);
+            car.Functoin = Console.ReadLine();
+            if (car.Functoin == "beep")
             {
-                switch (function)
-                {
-                    case "faster":
-                        Console.WriteLine(car.Speed + 10);
-                        break;
-                    case "slower":
-                        Console.WriteLine(car.Speed - 10);
-                        break;
-                    case "beep":
-                        Console.WriteLine("BEEP");
-                        Console.Beep();
-                        break;
-                    default:
-                        Console.WriteLine("Its not valid.");
-                        break;
-                }
-                break;
+                Console.WriteLine ("Beep Beep");
+                Console.Beep();
             }
+            else if(car.Functoin == "faster")
+            {
+                car.Speed = car.Speed + 10;
+                Console.WriteLine("Your car speed is " + car.Speed + " km / h.");
+            }
+            else if (car.Functoin == "slower")
+            {
+                car.Speed = car.Speed -10;
+                Console.WriteLine("Your car speed is " + car.Speed + " km / h.");
+            }
+            
+
         }
     }
 }
