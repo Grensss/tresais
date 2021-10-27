@@ -16,6 +16,7 @@ namespace Tresais_mdarbs
         public int height { get; set; }
         
 
+
         public string Parameters()
         {
             string Param = "Your " + ModelName + " have " + Ram + " Ram and " + Ghz + " Ghz processor, it's size(width, length, and height) in cm is "+ width + "/" + length + "/" + height + ". Nothing more, have good day :)" ;
