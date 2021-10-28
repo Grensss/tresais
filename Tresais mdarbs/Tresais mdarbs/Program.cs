@@ -48,15 +48,15 @@ namespace Tresais_mdarbs
             //    Console.WriteLine("Your car speed is " + car.Speed + " km / h.");
             //}
 
-            Product product = new Product();
-            Console.WriteLine("Greetings write product name to search it's parameters.");
-            product.Productname = Console.ReadLine();
-            product.ProdHeight = 40;
-            product.ProdLength = 20;
-            product.ProdWeight = 5;
-            product.ProdWidth = 60;
-            string Prod = product.Productometrs();
-            Console.WriteLine(Prod);
+            //Product product = new Product();
+            //Console.WriteLine("Greetings write product name to search it's parameters.");
+            //product.Productname = Console.ReadLine();
+            //product.ProdHeight = 40;
+            //product.ProdLength = 20;
+            //product.ProdWeight = 5;
+            //product.ProdWidth = 60;
+            //string Prod = product.Productometrs();
+            //Console.WriteLine(Prod);
 
 
 
