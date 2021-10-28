@@ -58,7 +58,39 @@ namespace Tresais_mdarbs
             //string Prod = product.Productometrs();
             //Console.WriteLine(Prod);
 
-
+            Person person = new Person();
+            Console.WriteLine("Greetings, do you want to complete some survey about you? Yes or No.");
+            string answer = Console.ReadLine();
+            if (answer == "Yes")
+            {
+                Console.WriteLine("Nice, what's your name?");
+            }
+            else if (answer == "No")
+            {
+                Console.WriteLine("Eh, that's bad, but ok, see you another time.");
+                return;
+            }
+            person.name = Console.ReadLine();
+            Console.WriteLine("Cool name, when you born? Write only year.");
+            string _age = Console.ReadLine();
+            person.age = int.Parse(_age);
+            int finalage = 2021 - person.age;
+            Console.WriteLine("Heh, you are young, it's cool, which sex you are? male or female?");
+            person.sex = Console.ReadLine();
+            if (person.sex == "male")
+            {
+                Console.WriteLine("Nice man, maybe you have a hobbies?");
+            }
+            else if (person.sex == "female")
+            {
+                Console.WriteLine("It's cool girl, maybe you have a hobbies?");
+            }
+            person.hob = Console.ReadLine();
+            Console.WriteLine("Very good, what kind of work you have now?");
+            person.work = Console.ReadLine();
+            Console.WriteLine("Good, now we can see what we got.");
+            string Pers = person.Persontext();
+            Console.WriteLine(Pers);
 
 
 
